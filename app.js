@@ -8,3 +8,9 @@ ctrl+b- toggele sidebar
 ctrl+~ toggle cmd line
 */
 // Varibales
+//var
+var firstName = "Surojit";
+var lastName = "Manna";
+let fullName = firstName + lastName;
+let age = 28;
+console.log("Full Name: ", fullName, "\n", "Age: ", age);
