@@ -9,8 +9,26 @@ ctrl+~ toggle cmd line
 */
 // Varibales
 //var
-var firstName = "Surojit";
+/*var firstName = "Surojit";
 var lastName = "Manna";
 let fullName = firstName + lastName;
 let age = 28;
 console.log("Full Name: ", fullName, "\n", "Age: ", age);
+*/
+// Primitive Data Types
+//String
+//Number
+//Boolean
+//Null
+//Undefined
+//Symbol - Builtin object whose constructor returns unique symbol
+const id = Symbol("id");
+console.log(id, typeof id);
+//BigInt
+const num = 123456789789451236;
+console.log(num, typeof num);
+
+//Reference Types
+//Objects
+//Arrays
+//Function
