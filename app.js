@@ -295,4 +295,7 @@ x = typeof x;
 x = num.toPrecision(4);
 x = num.toExponential(2);
 x = num.toLocaleString("en-IN");
+x = num.valueOf();
+x = Number.MAX_VALUE;
+x = Number.MIN_VALUE;
 console.log(x);
