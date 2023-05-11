@@ -285,9 +285,9 @@ Symbol(Symbol.iterator)
 // console.log(x);
 
 //Numbers
-let x;
 
-const num = new Number(5);
+// const num = new Number(5);
+/*
 //to string
 x = num.toString();
 x = num.toString().length;
@@ -298,4 +298,14 @@ x = num.toLocaleString("en-IN");
 x = num.valueOf();
 x = Number.MAX_VALUE;
 x = Number.MIN_VALUE;
+console.log(x);
+*/
+//Math Object
+let x;
+x = Math.sqrt(9);
+x = Math.abs(-5);
+x = Math.round(12.6554);
+x = Math.pow(4, 2);
+x = Math.min(4, 5, 3, 24, 8, 96, 20);
+x = Math.floor(Math.random() * 10) + 1;
 console.log(x);
